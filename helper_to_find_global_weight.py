@@ -9,7 +9,7 @@ from tkinter.filedialog import askdirectory, askopenfilename, askopenfilenames
 from skimage.filters import threshold_otsu, threshold_local
 import cv2
 
-import tensorflow as tf
+#import tensorflow as tf
 
 def sigmoid_normalization(img,min_new=0,max_new=2**16-1,power=-1):
     min_old, max_old = min(img.flat), max(img.flat)
